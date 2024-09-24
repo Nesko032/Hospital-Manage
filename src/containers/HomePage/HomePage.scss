@@ -1,0 +1,96 @@
+.slick-prev {
+    width: 40px !important;
+    height: 40px !important;
+    left: -20px !important;
+
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    z-index: 1000 !important;
+
+    &:hover {
+        background: #eceaea !important;
+    }
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: FontAwesome !important;
+    color: red !important;
+}
+
+.slick-next {
+    width: 40px !important;
+    height: 40px !important;
+    right: -20px !important;
+
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    z-index: 1000 !important;
+
+    &:hover {
+        background: #eceaea !important;
+    }
+}
+
+.section-header {
+    .section-body {
+        .section-img--customize {
+            .section-img {
+                width: 288px;
+                height: 150px;
+                object-fit: cover;
+
+                &.section-specialty {
+                    background: url('../../assets/specialty/fig-1.jpg');
+                }
+
+                &.section-medical-facility {
+                    background: url('../../assets/medical-facility/thu-cuc-hospital.jpg');
+                }
+
+                &.section-out-standing-doctor {
+                    background: url('../../assets/medical-facility/thu-cuc-hospital.jpg');
+                }
+            }
+        }
+    }
+}
+
+.container {
+    height: 330px;
+    padding: 0 60px;
+
+    .section-content {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+        .section-header {
+            height: 60px;
+            margin: 30px 0;
+
+            &--title {
+                font-size: 24px;
+                font-weight: 600;
+            }
+
+            &--button {
+                float: right;
+                padding: 10px 15px;
+                border: none;
+                outline: none;
+                color: #000;
+                background: #ebebeb;
+                text-transform: uppercase;
+                cursor: pointer;
+
+                &:hover {
+                    color: #fff;
+                    background: #f7d800;
+                }
+            }
+        }
+    }
+}
